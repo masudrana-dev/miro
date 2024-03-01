@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        "container": "1580px",
+        "container": "1440px",
       },
       fontFamily: {
         "inter": ["Inter , sans-serif"]

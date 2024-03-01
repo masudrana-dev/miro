@@ -29,6 +29,7 @@ const Header = () => {
 
                 </div>
             </div>
+            <hr className="mt-4 w-full" />
         </section>
     )
 }
