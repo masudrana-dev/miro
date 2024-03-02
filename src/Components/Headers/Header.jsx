@@ -23,7 +23,7 @@ const Header = () => {
                         <li className="mr-4"><a href="">Contact Sales</a></li>
                         <li className="mr-4"><a href="">Login</a></li>
                         <li className="mr-4"><a href="">
-                            <button className="border border-[#4262FF] rounded-[100px] inline-block px-3 py-3 bg-[#4262FF] text-white flex items-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
+                            <button className="border border-[#4262FF] rounded-[100px] px-3 py-3 bg-[#4262FF] transition hover:bg-white hover:text-black text-white flex items-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
                         </a></li>
                     </ul>
 

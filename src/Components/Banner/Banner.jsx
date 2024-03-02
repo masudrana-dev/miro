@@ -11,13 +11,13 @@ const Banner = () => {
 
                 <div className="banner-left">
                     {/* banner text  */}
-                    <h1 className="text-[48px] font-bold pb-4">Take ideas from <br />better to best</h1>
+                    <h1 className=" pb-4">Take ideas from <br />better to best</h1>
                     <h2 className="text-[18px]">Miro is your teams visual platfomr to connect, <br />collerborate and create - together</h2>
                     {/* banner text  */}
 
                     <div className="banner-input pt-8">
                         <input className="w-[450px] py-3 pl-4 mb-3 border border-gray-200 rounded-[100px]" type="email" placeholder="Enter your work email" />
-                        <button className="border border-[#4262FF] rounded-[100px]  w-[450px] py-3 bg-[#4262FF] text-white flex items-center justify-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
+                        <button className="border border-[#4262FF] rounded-[100px]  w-[450px] py-3 bg-[#4262FF] text-white transition hover:bg-white hover:text-black flex items-center justify-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
                     </div>
                     <p className="text-gray-400 pt-2">Colleborate with your team within minutes</p>
 

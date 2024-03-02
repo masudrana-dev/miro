@@ -20,3 +20,12 @@ li {
 a {
   text-decoration: none;
 }
+
+p {
+  color: #050038;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
