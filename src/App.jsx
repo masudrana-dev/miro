@@ -4,6 +4,7 @@ import Brand from './Components/Brands/Brand'
 import Services from './Components/Services/Services'
 import Header from './Components/Headers/Header'
 import WorkTogether from './Components/WorkTogether/WorkTogether'
+import Connect from './Components/Connect/Connect'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Brand></Brand>
         <Services></Services>
         <WorkTogether></WorkTogether>
+        <Connect></Connect>
       </div>
     </>
   )
