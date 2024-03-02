@@ -5,6 +5,7 @@ import Services from './Components/Services/Services'
 import Header from './Components/Headers/Header'
 import WorkTogether from './Components/WorkTogether/WorkTogether'
 import Connect from './Components/Connect/Connect'
+import WorkWay from './Components/WorkWay/WorkWay'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Services></Services>
         <WorkTogether></WorkTogether>
         <Connect></Connect>
+        <WorkWay></WorkWay>
       </div>
     </>
   )
