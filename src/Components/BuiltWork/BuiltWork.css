@@ -1,0 +1,15 @@
+.content {
+    display: none;
+}
+
+.show-content {
+    display: block;
+
+}
+
+.brainstorming {
+    display: flex;
+    justify-content: center;
+
+
+}

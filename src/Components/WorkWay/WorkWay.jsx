@@ -2,11 +2,11 @@ import img from '../../../public/images/section.png'
 import { MdArrowRightAlt } from 'react-icons/md'
 const WorkWay = () => {
     return (
-        <section className="max-w-container mx-auto pb-20 px-48">
+        <section className="max-w-container mx-auto pb-20 px-10 sm:md:px-48">
             <div className='relative'>
                 <img src={img} alt="" />
             </div>
-            <div className='absolute top-[325%] left-[55%] text-center '>
+            <div className='absolute md:top-[325%] md:left-[55%] text-center '>
                 <h2 className='text-[18px] font-bold mb-2'>The Ways We Work</h2>
                 <p>How has our relationship with work changed?</p>
                 <div className="btn flex justify-center mt-2">
