@@ -17,9 +17,9 @@ const BulitTeam = () => {
         setToggle(id)
     }
     return (
-        <section className="max-w-container mx-auto  px-32 h-[830px] py-32">
+        <section className="max-w-container mx-auto px-10  md:px-32 h-[830px] py-32">
             <div>
-                <h1>Built for the way you work</h1>
+                <h1 className='text-[30px] md:text-[30px] lg:text-[48px] '>Built for all kinds of teams</h1>
                 <ul className="grid grid-cols-2 gap-2  sm:md:grid-rows-0 sm:md:grid-cols-7 cursor-pointer pt-5 " >
                     <li className='border border-gray-300 px-3 py-3 rounded-[100px] text-center' onClick={() => updateToggle(1)}> UX Design</li>
                     <li className='border border-gray-300 px-3 py-3 rounded-[100px] text-center' onClick={() => updateToggle(2)}> Marketing</li>
@@ -40,7 +40,7 @@ const BulitTeam = () => {
             </div>
             <div className={`${toggle === 1 ? 'show-content' : 'content'}  `}>
 
-                <div className=' brainstorming pt-10'>
+                <div className=' lg:flex lg:justify-between pt-10'>
                     <div className='pt-10'>
                         <p className='flex items-center pb-5'> <i className='pr-3'><FaCheck /></i>Build low-fi wireframes</p>
                         <p className='flex items-center pb-5 w-[250px]'> <i className='pr-3'><FaCheck /></i>Involve stakeholders in the design process</p>
@@ -56,7 +56,7 @@ const BulitTeam = () => {
                             <img src={img4} alt="" />
                         </div>
                     </div>
-                    <img src={img} alt="" />
+                    <img src={img} alt="" className=' lg:w-[500px] lg:h-[500px] xl:w-[700px]' />
                 </div>
 
             </div>
