@@ -2,7 +2,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 const Services = () => {
     return (
-        <section className="max-w-container mx-auto font-inter pt-40 pb-28 px-10 sm:md:px-32">
+        <section className="max-w-container mx-auto font-inter pt-14 pb-10 md:pt-40 md:pb-28 px-10 md:px-32">
             <div className="heading">
                 <h1 className=" text-center text-[28px] sm:md:text-[48px]">
                     Collaborate without <br />
@@ -10,7 +10,7 @@ const Services = () => {
                 </h1>
             </div>
             {/* text box  */}
-            <div className="sm:md:flex  sm:md:justify-between pt-10">
+            <div className="sm:flex md:flex md:justify-between pt-10">
                 <div className="w-[300px]">
                     <h1 className="text-[30px] font-bold pb-2 pt-3 sm:md:pt-0 sm:md:pb-5">Free forever</h1>
                     <p>
@@ -34,7 +34,7 @@ const Services = () => {
 
             {/* button  */}
             <div className="btn flex justify-center pt-10 sm:md:pt-28 ">
-                <button className="border border-[#4262FF] rounded-[100px]  px-7 py-3 bg-[#4262FF] transition hover:bg-white hover:text-black  text-white flex items-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
+                <button className="border border-[#4262FF] rounded-[100px] px-5 py-2  md:px-7 md:py-3 bg-[#4262FF] transition hover:bg-white hover:text-black  text-white flex items-center ">Sign Up Free <i className="ml-1"><MdArrowRightAlt /></i></button>
             </div>
             {/* button  */}
         </section>

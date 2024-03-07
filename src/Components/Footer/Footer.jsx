@@ -26,17 +26,30 @@ const Footer = () => {
                             </div>
 
                         </div>
-                        <div className='w-[40%] ml-10'>
+                        <div className='w-[40%] '>
                             <h1 className="pb-10">Miro.</h1>
                             <div className="h-[2px] w-[240px] bg-white"></div>
-                            <div className=" mt-[60px]">
-                                <ul>
-                                    <li className="text-[19px] text-yellow-500 font-extrabold pb-[24px]">Iphone</li>
-                                    <li className="text-[19px] text-yellow-500 font-extrabold pb-[24px]">Android</li>
-                                    <li className="text-[19px] text-yellow-500 font-extrabold pb-[24px]">Help</li>
-                                    <li className="text-[19px] text-yellow-500 font-extrabold pb-[24px]">About</li>
-                                    <li className="text-[19px] text-yellow-500 font-extrabold pb-[24px]">Insights</li>
-                                </ul>
+                            <div className="pl-10 mt-[60px]">
+                                <div className=" flex items-center pb-4">
+                                    <div className="h-1 w-6 mr-3 bg-yellow-500"></div>
+                                    <p className="text-[19px] font-extrabold text-yellow-500">Iphone   </p>
+                                </div>
+                                <div className="flex  items-center pb-4">
+                                    <div className="h-1 w-6 mr-3 bg-yellow-500"></div>
+                                    <p className="text-[19px] font-extrabold text-yellow-500">Android   </p>
+                                </div>
+                                <div className="flex   items-center pb-4">
+                                    <div className="h-1 w-6 mr-3 bg-yellow-500"></div>
+                                    <p className="text-[19px] font-extrabold text-yellow-500">Help   </p>
+                                </div>
+                                <div className="flex   items-center pb-4">
+                                    <div className="h-1 w-6 mr-3 bg-yellow-500"></div>
+                                    <p className="text-[19px] font-extrabold text-yellow-500">About   </p>
+                                </div>
+                                <div className="flex   items-center pb-4">
+                                    <div className="h-1 w-6 mr-3 bg-yellow-500"></div>
+                                    <p className="text-[19px] font-extrabold text-yellow-500">Insights   </p>
+                                </div>
                             </div>
                         </div>
                     </div>
